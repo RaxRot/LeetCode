@@ -16,4 +16,9 @@ public class IsPalindrome {
         return true;
     }
 
+    public static void main(String[] args) {
+        System.out.println(new IsPalindrome().isPalindrome(12));
+        System.out.println(new IsPalindrome().isPalindrome(11));
+    }
+
 }
